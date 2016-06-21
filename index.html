@@ -19,6 +19,10 @@
 			img.hover{ 
 				opacity:1;
 				transform:rotatey(360deg);
+				-ms-transform:rotatey(360deg); 	/* IE 9 */
+				-moz-transform:rotatey(360deg); 	/* Firefox */
+				-webkit-transform:rotatey(360deg); /* Safari 和 Chrome */
+				-o-transform:rotatey(360deg); 	/* Opera */
 				scale(1,1); 
 			}
 			button{
